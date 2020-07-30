@@ -260,8 +260,8 @@ npz = np.load('HR_data_test.npz')
 test_inputs, test_targets = npz['inputs'].astype(np.float), npz['targets'].astype(np.int)
 ```
 
-### Training the model¶
-Dropout(0.2) and early_stopping used to prevent overfitting of the mode
+### Training the model
+Dropout(0.2) and early_stopping used to prevent overfitting of the model
 
 ```python
 # Set the input and output sizes
